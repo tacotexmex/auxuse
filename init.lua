@@ -31,7 +31,6 @@ minetest.register_globalstep(function(dtime)
 						local on_aux = def.on_aux
 						if on_aux then
 							on_aux(pos, node, clicker, itemstack)--, pointed_thing)
-							print(dump(on_aux))
 						end
 					end
 				end
